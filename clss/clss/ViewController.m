@@ -35,6 +35,8 @@
     dispatch_barrier_async(queue, ^{
         NSLog(@"任务 barrier， %@", [NSThread currentThread]);
     });
+    //skdfjdskfksldfkjsd
+//    NSSortDescriptor
     dispatch_async(queue, ^{
         NSLog(@"任务3， %@", [NSThread currentThread]);
     });
